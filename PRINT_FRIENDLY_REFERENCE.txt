@@ -1,0 +1,104 @@
+================================================================================
+                    PYTHON CODING - QUICK REFERENCE CARD
+                         For Digital Pet Simulator
+================================================================================
+
+VARIABLES (Memory Boxes)
+--------------------------------------------------------------------------------
+  pet_name = "Buddy"          Put "Buddy" in the pet_name box
+  pet_happiness = 50          Put number 50 in the box
+  "text" or 'text'            Text (string) - always use quotes!
+  42                          Number - no quotes needed
+
+SHOWING THINGS ON SCREEN
+--------------------------------------------------------------------------------
+  print("Hello!")             Shows: Hello!
+  print(pet_name)             Shows what's in pet_name
+  print(f"Hi {pet_name}")     Mixes text and variables
+
+MAKING DECISIONS (if/elif/else)
+--------------------------------------------------------------------------------
+  if pet_happiness >= 80:         ← IF happiness is 80 or more
+      print("Super happy!")
+  elif pet_happiness >= 50:       ← ELSE IF it's 50 or more  
+      print("Doing okay")
+  else:                           ← If nothing above was true
+      print("Needs attention")
+
+REPEATING ACTIONS (Loops)
+--------------------------------------------------------------------------------
+  while game_running == True:     ← Keep doing this WHILE true
+      show_menu()                 ← This code repeats!
+
+FUNCTIONS (Recipes You Can Reuse)
+--------------------------------------------------------------------------------
+  def feed_pet():                 ← Creating a function
+      print("Feeding...")         ← What the function does
+      
+  feed_pet()                      ← Using (calling) the function
+
+MATH SYMBOLS
+--------------------------------------------------------------------------------
+  Symbol    Meaning              Example
+  ------    -------              -------
+    =       Put into             age = 8
+    ==      Is equal?            if age == 8:
+    +       Add                  5 + 3  (equals 8)
+    -       Subtract             10 - 2  (equals 8)
+    >       Greater than         if score > 50:
+    <       Less than            if time < 10:
+    >=      Greater or equal     if age >= 8:
+    <=      Less or equal        if speed <= 5:
+
+GETTING INPUT FROM PLAYER
+--------------------------------------------------------------------------------
+  name = input("Your name? ")     Asks question and waits for answer
+
+HELPFUL FUNCTIONS
+--------------------------------------------------------------------------------
+  max(0, hunger - 20)             Pick bigger number (never below 0)
+  min(100, happiness + 10)        Pick smaller number (never above 100)
+
+SPECIAL SYMBOLS
+--------------------------------------------------------------------------------
+  #                               Comment (note for humans only)
+  \n                              New line (like pressing Enter)
+  *                               Multiply OR repeat: "=" * 5 = "====="
+
+IMPORTANT RULES - ALWAYS DO THESE!
+--------------------------------------------------------------------------------
+  ✓ Save before running           Press Ctrl+S (Windows) or Cmd+S (Mac)
+  ✓ Use 4 spaces for indentation  Count carefully!
+  ✓ Add colons after:             def, if, elif, else, while
+  ✓ Match your quotes             "text" or 'text' (not mixed!)
+  ✓ Check spelling carefully      pet_name is NOT Pet_name
+
+COMMON ERRORS AND FIXES
+--------------------------------------------------------------------------------
+  Error Type          What Happened               How to Fix
+  ----------          -------------               ----------
+  SyntaxError         Python is confused          Check colons, quotes, spelling
+  IndentationError    Spaces are wrong            Count spaces (use 4!)
+  NameError           Variable misspelled         Check exact spelling
+  TypeError           Mixing wrong things         Check if using text vs numbers
+
+QUICK TROUBLESHOOTING CHECKLIST
+--------------------------------------------------------------------------------
+  1. Did you SAVE the file? (Ctrl+S or Cmd+S)
+  2. Do all quotes MATCH? ("..." or '...')
+  3. Did you add COLONS after def, if, while?
+  4. Is INDENTATION exactly 4 spaces?
+  5. Did you spell variable names EXACTLY the same?
+  6. Are you using the right quote marks? (not " or ")
+
+REMEMBER
+--------------------------------------------------------------------------------
+  • Every programmer makes mistakes - even experts!
+  • Errors are how we learn
+  • Read error messages - they help you!
+  • Keep trying - you've got this!
+  • Ask for help when you need it
+
+================================================================================
+            Keep this card at your desk while you code! 🌟
+================================================================================
